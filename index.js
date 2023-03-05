@@ -49,7 +49,6 @@ function draw() {
   }
 
   noiseOffset += 1 / noiseVelocity;
-  // noLoop();
 }
 
 function generatePoints() {
@@ -57,10 +56,6 @@ function generatePoints() {
   points.push({ x: 200, y: 150 });
   points.push({ x: 400, y: 150 });
   points.push({ x: 450, y: 350 });
-}
-
-function noisePoint(p, i) {
-  return;
 }
 
 function lerpVector(a, b, t) {
